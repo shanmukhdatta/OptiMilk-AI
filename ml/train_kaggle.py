@@ -27,7 +27,8 @@ def find_csv(path=None):
             raise FileNotFoundError(p)
         return p
     filename = "02_AUGMENTED_0_to_100_500_cycles.csv"
-    roots = [Path("/kaggle/input"), Path(__file__).resolve().parents[1] / "data" / "raw", Path.cwd()]
+    project_root = Path(__file__).resolve().parents[1] if "__file__" in globals() else Path.cwd()
+    roots = [Path("/kaggle/input"), project_root / "data" / "raw", Path.cwd()]
     for root in roots:
         if root.exists():
             paths = sorted(root.rglob(filename))
