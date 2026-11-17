@@ -1,0 +1,34 @@
+# Built application files
+*.apk
+*.aab
+
+# Crucial: Ensure prebuilt OptiMilk-AI debug APK is tracked and not ignored
+!app/OptiMilk-AI-debug.apk
+!OptiMilk-AI-debug.apk
+
+# Android Studio / Gradle
+*.iml
+.gradle
+.kotlin
+/local.properties
+local.properties
+.env
+debug.keystore
+
+# Build outputs
+/build
+/*/build
+captures/
+.externalNativeBuild
+.cxx
+
+# IDE & Editor files
+.idea/
+*.iws
+*.ids
+*.ipr
+.DS_Store
+
+# OS generated files
+Thumbs.db
+Desktop.ini

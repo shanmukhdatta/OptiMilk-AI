@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emerald_primary">#FF16834A</color>
+    <color name="emerald_dark">#FF116B3A</color>
+    <color name="mint_light">#FFEAF7EF</color>
+    <color name="surface_mint_tint">#FFF7FAF8</color>
+    <color name="text_primary_ink">#FF172B22</color>
+    <color name="text_secondary_slate">#FF64756C</color>
+    <color name="border_sage">#FFE2EBE5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
